@@ -14,7 +14,7 @@ jobs:
     name: Terraform Plan (PR) / Apply (merge)
     runs-on: ubuntu-latest
     env:
-      TF_WORKING_DIR: ./envs/dev   # change to your env path if different
+      TF_WORKING_DIR: ./env/dev   # change to your env path if different
 
     steps:
       - name: Checkout
